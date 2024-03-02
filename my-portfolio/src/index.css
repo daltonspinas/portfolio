@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://rsms.me/inter/inter.css");
+
+@layer base {
+  html {
+    @apply text-base;
+    font-family: Inter
+  }
+}
+:root {
+  --color-text-base: #EEFBF5;
+  --color-text-muted: #BFC7BD;
+  --color-text-inverted: #223843;
+  --color-fill: #0E151B;
+  --color-accent: #D77A61;
+}
