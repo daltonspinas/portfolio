@@ -11,9 +11,10 @@
   }
 }
 :root {
-  --color-text-base: #EEFBF5;
-  --color-text-muted: #BFC7BD;
+  --color-text-base: rgb(226 232 240);
+  --color-text-muted: rgb(148 163 184);
   --color-text-inverted: #223843;
-  --color-fill: #0E151B;
-  --color-accent: #D77A61;
+  --color-fill: rgb(15 23 42);
+  --color-accent: #F26157;
+  --color-accent-2: rgb(94 234 212);
 }

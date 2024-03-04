@@ -11,10 +11,11 @@ module.exports = {
           base: "var(--color-fill)"
       },
       colors: {
-        'accent': "var(--color-accent)"
+        'primary': "var(--color-fill)",
+        'accent': "var(--color-accent)",
+        'accent-2': "var(--color-accent-2)",
       }
     },
   },
   plugins: [],
 }
-
