@@ -12,10 +12,10 @@ function App() {
       <Profile />
       <div className="py-8 md:py-24 h-full max-h-full w-full">
         <AboutMe />
-        <ul className=" pt-8 md:pt-24">
+        <ul className=" pt-8 md:pt-24 group">
           {resumeItems.map((x) => (
             // Placeholder for resume card size
-            <li className="h-96">
+            <li className="h-96 group-hover:opacity-50 hover:!opacity-100">
               <ResumeItem></ResumeItem>
             </li>
           ))}

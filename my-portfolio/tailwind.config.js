@@ -4,16 +4,20 @@ module.exports = {
   theme: {
     extend: {
       textColor : {
-        base: "var(--color-text-base)",
-        muted: "var(--color-text-muted)"
+        base: "rgb(var(--color-text-base) / <alpha-value>)",
+        muted: "rgb(var(--color-text-muted) / <alpha-value>)",
+        accent: "rgb(var(--color-accent) / <alpha-value>)",
+        accent2: "rgb(var(--color-accent-2) / <alpha-value>)"
       },
       backgroundColor : {
-          base: "var(--color-fill)"
+          base: "rgb(var(--color-fill) / <alpha-value>)",
+          accent: "rgb(var(--color-accent) / <alpha-value>)",
+          accent2: "rgb(var(--color-accent-2) / <alpha-value>)",
       },
       colors: {
-        'primary': "var(--color-fill)",
-        'accent': "var(--color-accent)",
-        'accent-2': "var(--color-accent-2)",
+        'primary': "rgb(var(--color-fill) / <alpha-value>)",
+        'accent': "rgb(var(--color-accent) / <alpha-value>)",
+        'accent-2': "rgb(var(--color-accent-2) / <alpha-value>)",
       }
     },
   },
