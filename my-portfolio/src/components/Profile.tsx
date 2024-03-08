@@ -9,10 +9,10 @@ function Profile() {
   return (
     <div className=" h-1/2 md:h-screen w-full flex flex-col justify-between py-12 md:py-24 md:sticky top-0">
       <div className="md:pr-8">
-        <h1 className="font-bold text-4xl md:text-6xl text-decoration-line: underline decoration-accent">
+        <h1 className="font-bold text-4xl md:text-6xl underline decoration-accent">
           Dalton Spinas
         </h1>
-        <h2 className=" text-2xl mt-2 md:mt-8 text-decoration-line: underline decoration-accent">
+        <h2 className=" text-2xl mt-2 md:mt-8 underline decoration-accent">
           Fullstack Software Engineer
         </h2>
         <p className="text-muted mt-2 md:mt-8 leading-7">
@@ -24,7 +24,7 @@ function Profile() {
       </div>
       <div>
         <ul className="flex items-center justify-center md:justify-start w-full pb-4 md:pb-0 gap-4">
-            <li className="mr-4 mt-4 h-12 w-12">
+            <li className="mr-4 mt-4 h-8 w-8">
               <a
                 href="https://github.com/daltonspinas"
                 target="_blank"
@@ -38,7 +38,7 @@ function Profile() {
                 ></GithubLogo>
               </a>
             </li>
-            <li className="mr-4 mt-4 h-12 w-12">
+            <li className="mr-4 mt-4 h-8 w-8">
               <a
                 href="https://www.linkedin.com/in/dalton-spinas/"
                 target="_blank"

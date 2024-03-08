@@ -8,12 +8,12 @@ function ResumeCard(info: ResumeCardInfo) {
        {info.startDate} &mdash; <br className="hidden md:inline"></br>{info.endDate}
       </div>
       <div>
-        <div className="group-hover/card:text-accent2">
-          <div className="text-2xl mb-2">
+        <div className="">
+          <div className="text-2xl mb-2 group-hover/card:text-accent2">
             {info.title} - {info.company}
           </div>
           {info.subContractCompany ? (
-            <div className="text-xl">
+            <div className="text-xl group-hover/card:underline decoration-accent">
               Consultant for {info.subContractCompany}
             </div>
           ) : (

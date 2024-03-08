@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { ResumeCardInfo } from "./types";
 
 export const ResumeInfo: ResumeCardInfo[] = [
@@ -67,10 +66,10 @@ export const ResumeInfo: ResumeCardInfo[] = [
 ];
 
 export const ProfessionalSummary: string =
-  "As a software engineer and consultant, I have worked with various clients to deliver high-quality web applications using Angular, JavaScript, .NET, C#, and SQL. I collaborate with other developers, designers, and stakeholders to ensure the projects met the requirements and expectations of the clients.";
+  "As a software engineer and consultant, I have worked with various clients to deliver high-quality web applications using Angular, JavaScript, .NET, C#, and SQL. I collaborate with other developers, designers, and stakeholders to ensure the projects meet the requirements and expectations of the clients.";
 
 export const AboutMeInfo: string[] = [
   "I began my coding journey in 2018 as a hobby by taking a local 'Intro to Code' class and I immediately became interested in building software. I decided to make a pivot from a career in wealth management and enrolled in Fullstack Academy of Code, and have been working professionally as a software engineer since 2019.",
   "For the past two and a half years I have had the opportunity to work as a software consultant. I enjoy growing my technical skills while working directly with stakeholders, including product owners, project managers, UX designers, etc. I've worked as a lead with team members abroad and a solo engineer on a production app with 10,000 users and everything in between. I find I enjoy working in a collaborative environment the most.",
-  "Outside of work I spend my time camping across California, I'm always interested to hear about new campgrounds. I'm also a tech enthusiast and love building PCs and tinkering on my homelab server. And of course, Sundays in the fall are often dedicated to NFL football. Go Packers!"
+  "Outside of work I spend my time camping across California and I'm always interested in hearing about new campgrounds. I'm also a tech enthusiast and love building PCs and tinkering on my homelab server. And of course, Sundays in the fall are often dedicated to NFL football. Go Packers!"
 ];
