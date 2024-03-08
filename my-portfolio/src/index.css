@@ -11,6 +11,12 @@
   }
 }
 
+@layer components {
+  .profile-pic {
+    clip-path: circle(40%);
+  }
+}
+
 :root {
   --color-text-base: 226 232 240;
   --color-text-muted: 148 163 184;
