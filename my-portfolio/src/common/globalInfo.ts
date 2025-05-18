@@ -2,6 +2,25 @@ import { ResumeCardInfo } from "./types";
 
 export const ResumeInfo: ResumeCardInfo[] = [
   {
+    title: "Fullstack Engineer - FrontEnd Team Lead",
+    company: "Gaine Solutions",
+    startDate: "June 2024",
+    endDate: "Current",
+    bullets: [
+      "Upgraded authentication to enable RBAC and SSO with clients, using OpenID Connect",
+      "Collaborated with backend teams to build and maintain APIs and databases in .NET and SQL Server, ensuring integration and end-to-end functionality across the platform",
+      "Mentored and managed junior developers, establishing best practices and improving code quality through regular code reviews and knowledge sharing.",
+    ],
+    technologies: [
+      "C#",
+      ".NET",
+      "SQL",
+      "Angular",
+      "Typecript",
+      "Tailwind CSS",
+    ],
+  },
+  {
     title: "Software Engineer",
     company: "Technossus",
     subContractCompany: "SpaceX",
@@ -51,18 +70,18 @@ export const ResumeInfo: ResumeCardInfo[] = [
       "CSS3",
     ],
   },
-  {
-    title: "Frontend Engineer (Contract)",
-    company: "WizeFi",
-    startDate: "Mar 2019",
-    endDate: "Sept 2019",
-    bullets: [
-      "Created UI/UX to consume AWS Lambda, Cognito, and DynamoDB backend and third party APIs with Angular 2+, allowing users to view and update their financial data in a unique and intuitive way",
-      "Collaborated with Product Manager to design new bank integration features, including account details and transaction history from numerous financial institutions through Envestnet Yodlee API integration",
-      "Leveraged both technical and financial skills to contribute to the entire software development lifecycle; from inception to deployment of user transaction, and account detail features",
-    ],
-    technologies: ["Angular", "Typescript", "HTML", "CSS3"],
-  },
+  // {
+  //   title: "Frontend Engineer (Contract)",
+  //   company: "WizeFi",
+  //   startDate: "Mar 2019",
+  //   endDate: "Sept 2019",
+  //   bullets: [
+  //     "Created UI/UX to consume AWS Lambda, Cognito, and DynamoDB backend and third party APIs with Angular 2+, allowing users to view and update their financial data in a unique and intuitive way",
+  //     "Collaborated with Product Manager to design new bank integration features, including account details and transaction history from numerous financial institutions through Envestnet Yodlee API integration",
+  //     "Leveraged both technical and financial skills to contribute to the entire software development lifecycle; from inception to deployment of user transaction, and account detail features",
+  //   ],
+  //   technologies: ["Angular", "Typescript", "HTML", "CSS3"],
+  // },
 ];
 
 export const ProfessionalSummary: string =

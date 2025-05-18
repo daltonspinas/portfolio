@@ -3,8 +3,8 @@ import { ResumeCardInfo } from "../common/types";
 function ResumeCard(info: ResumeCardInfo) {
 
   return (
-    <div className="flex flex-col md:flex-row md:gap-4 hover:bg-slate-300 hover:bg-opacity-5 md:p-4 rounded-lg group/card hover:opacity-100 hover:z-40 px-8">
-      <div className=" md:flex-[1_0_5rem] text-muted text-xs uppercase leading-6 ">
+    <div className="flex flex-col md:flex-row md:gap-12 hover:bg-slate-300 hover:bg-opacity-5 md:p-4 rounded-lg group/card hover:opacity-100 hover:z-40 px-8">
+      <div className="text-muted text-xs uppercase leading-6 min-w-auto text-nowrap ">
        {info.startDate} &mdash; <br className="hidden md:inline"></br>{info.endDate}
       </div>
       <div>
